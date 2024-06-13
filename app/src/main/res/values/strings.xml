@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Relative_Application</string>
+    <string name="dca">DCA</string>
+    <string name="mars">MARS</string>
+    <string name="space">Space Station</string>
+    <string name="flight">Flights</string>
+    <string name="revers">Revers</string>
+    <string name="oneway">One Way</string>
+    <string name="traveller">Traveller</string>
+</resources>
