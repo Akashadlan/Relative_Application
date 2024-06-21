@@ -24,20 +24,6 @@
         />
 
     <TextView
-        android:id="@+id/tvdca"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/dca"
-        android:background="#00695C"
-        android:textSize="25sp"
-        android:textColor="@color/white"
-        android:layout_centerInParent="true"
-        android:layout_alignParentStart="true"
-        android:layout_margin="10dp"
-        android:padding="50dp"
-        />
-
-    <TextView
         android:id="@+id/tvmars"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -172,9 +158,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@id/tvone"
-        android:layout_marginStart="-54dp"
+        android:layout_marginStart="-66dp"
         android:layout_marginLeft="-40dp"
-        android:layout_toEndOf="@id/tvone" />
+        android:layout_toEndOf="@id/tvone"
+        android:padding="10dp" />
 
 
 </RelativeLayout>
