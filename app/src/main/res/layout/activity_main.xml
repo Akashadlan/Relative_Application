@@ -24,6 +24,20 @@
         />
 
     <TextView
+        android:id="@+id/tvdca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dca"
+        android:background="#00695C"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:padding="50dp"
+        />
+
+    <TextView
         android:id="@+id/tvmars"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -117,18 +131,23 @@
         android:src="@drawable/baseline_agriculture_24"
         android:layout_alignParentEnd="true"
         />
+
     <TextView
         android:id="@+id/tvone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/oneway"
-        android:background="#00ACC1"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        android:paddingRight="60sp"
-        android:layout_margin="15dp"
         android:layout_below="@+id/tvdca"
-        />
+        android:layout_alignParentStart="true"
+        android:layout_margin="15dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginBottom="15dp"
+        android:background="#00ACC1"
+        android:paddingRight="60sp"
+        android:text="@string/oneway"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -149,6 +168,13 @@
         android:textColor="@color/black"
         />
 
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tvone"
+        android:layout_marginStart="-54dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_toEndOf="@id/tvone" />
 
 
 </RelativeLayout>
